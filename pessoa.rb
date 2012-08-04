@@ -1,5 +1,11 @@
 class Pessoa
-  def diga_ola(nome)
-    puts "Olá #{nome}"
+  attr_accessor :nome
+
+  def initialize(nome)
+    @nome = nome
+  end
+
+  def diga_ola
+    puts "Olá #{@nome}"
   end
 end
