@@ -19,6 +19,7 @@ class Pessoa
     else
       puts "Olá #{@nome} #{@sobrenome}. Você tem #{@idade} anos."
 	  puts "seu enderço: #{endereco}"
+	  puts "seu enderço: #{endereco}"
     end
   end
 end
