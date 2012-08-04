@@ -1,4 +1,4 @@
-class Teste
+class Pessoa
   def diga_ola(nome)
     puts "Olá #{nome}"
   end
