@@ -1,8 +1,8 @@
 class Pessoa
 
-  attr_accessor :nome, :sobrenome, :apelido, :sexo, :cor_dos_olhos, :idade, :data_nasc, :cidade
+  attr_accessor :nome, :sobrenome, :apelido, :sexo, :cor_dos_olhos, :idade, :data_nasc, :cidade, :endereco
 
-  def,  initialize(nome, sobrenome, sexo, idade, data_nasc, cidade, apelido, cor_dos_olhos)
+  def(initialize(nome, sobrenome, sexo, idade, data_nasc, cidade, apelido, cor_dos_olhos, endereco)
     @nome = nome
     @sobrenome = sobrenome
     @sexo = sexo
@@ -11,6 +11,7 @@ class Pessoa
     @cidade = cidade
     @apelido = apelido
     @cor_dos_olhos = cor_dos_olhos
+	@endereco = endereco
   end
 
   def diga_ola
@@ -18,6 +19,8 @@ class Pessoa
       puts "Gugu dadá"
     else
       puts "Olá #{@nome} #{@sobrenome}. Você tem #{@idade} anos."
+	  puts "seu enderço: #{endereco}"
+	  puts "seu enderço: #{endereco}"
     end
   end
 end
