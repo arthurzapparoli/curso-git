@@ -14,7 +14,7 @@ class Pessoa
     if idade < 2
       puts "Gugu dadá"
     else
-      puts "Olá #{@nome} #{@sobrenome}"
+      puts "Olá #{@nome} #{@sobrenome}. Você tem #{@idade} anos."
     end
   end
 end
